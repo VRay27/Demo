@@ -16,5 +16,5 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
-    echo "namespace_name=$(VAULT_Prod_NM_Config_Update)"
+    echo namespace_name=$(VAULT_Prod_NM_Config_Update)
   displayName: 'Run a multi-line script'
